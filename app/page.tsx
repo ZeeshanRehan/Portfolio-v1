@@ -1,6 +1,7 @@
 import Nav from "@/components/nav";
 import Hero from "@/components/hero";
 import Experience from "@/components/experience";
+import Projects from "@/components/project";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <main style={{ paddingTop: "80px" }}>
         <Hero/>
         <Experience/>
+        <Projects/>
       </main>
 
     </>

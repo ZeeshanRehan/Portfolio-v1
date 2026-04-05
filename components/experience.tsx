@@ -36,7 +36,7 @@ const roles = [
 export default function Experience() {
   return (
     // mt-[70vh] pushes this section down so hero has room to breathe
-    <section className="mt-[16vh] px-44 pb-20">
+    <section className="mt-[16vh] px-48 pb-20">
 
       {/* section label — Abel mono feel, muted and small */}
       <p className="font-sans text-4xl tracking-[0.2em] text-[#acacac] uppercase mb-12">
