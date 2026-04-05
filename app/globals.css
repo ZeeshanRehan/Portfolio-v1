@@ -1,17 +1,18 @@
-*, *::before, *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+@import "tailwindcss";
+
+/* — register custom fonts so Tailwind knows font-serif = Cormorant, font-sans = Abel — */
+@theme {
+  --font-serif: var(--font-cormorant);
+  --font-sans: var(--font-abel);
 }
 
+/* — site-wide color tokens, change these to retheme everything — */
 :root {
   --bg: #080808;
   --surface: #111111;
   --border: #1f1f1f;
   --text: #e8e3dc;
   --muted: #4a4a4a;
-  --font-serif: var(--font-cormorant);
-  --font-sans: var(--font-abel);
 }
 
 html {
@@ -22,8 +23,5 @@ html {
 
 body {
   min-height: 100vh;
-  font-family: var(--font-sans);
-  font-size: 14px;
-  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
