@@ -4,7 +4,7 @@
 
 export default function Hero() {
   return (
-    <section className="pt-40 pb-20 px-20">
+    <section className="pt-30 pb-20 px-20">
       {/* main intro line — Cormorant serif, light weight */}
       <h1 className="font-serif font-light text-5xl text-[#e8e3dc] leading-tight tracking-tight">
         21 y/o software developer. Based in New Jersey.
