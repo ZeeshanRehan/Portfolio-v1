@@ -4,28 +4,28 @@ const projects = [
     href: "https://skillswap-one-opal.vercel.app/",
     description: "A hyper-local app built for Philly's neighbourhoods. Barter system allowing for exchange without money.",
     achievement: "Won 3rd place at Temple OwlHacks 26 hackathon.",
-    year: "2024",
-  },
-  {
-    title: "Lyra AI",
-    href: "https://lyra-uqft.vercel.app/",
-    description: "AI-powered music discovery platform. Describe your mood and get a curated playlist in seconds.",
-    achievement: "2,000+ personalized song suggestions delivered in first week of beta.",
     year: "2025",
   },
+  {
+  title: "RUHungry",
+  href: "https://ruhungry.vercel.app/",
+  description: "On-campus free food event finder for Rowan University students. Built on the Engage API with a cron job architecture.",
+  achievement: "1,800+ events discovered, serving 8,000+ off-campus students.",
+  year: "2025",
+},
   {
     title: "DevBytes",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSdgRQG4Tajdt5AMh4WxeA11J4RucVxnv_cyhXioLar64uc2yA/viewform",
     description: "Gamified DSA revision platform. Bite-sized daily sessions with streak tracking.",
     achievement: null,
-    year: "2025",
+    year: "2026",
   },
 ];
 
 export default function Projects() {
   return (
-    <section className="mt-[10vh] px-44 pb-20">
-      <p className="font-sans text-sm tracking-[0.2em] text-[#4a4a4a] uppercase mb-12">
+    <section className="mt-[10vh] px-48 pb-20">
+      <p className="font-sans text-3xl tracking-[0.2em] text-[#6a6a6a] uppercase mb-12">
         Projects:
       </p>
 
@@ -33,7 +33,7 @@ export default function Projects() {
         {projects.map((project) => (
           <div key={project.title} className="grid grid-cols-[180px_1fr] gap-10">
 
-            <span className="font-sans text-2xl text-[#4a4a4a] pt-1 whitespace-nowrap">
+            <span className="font-sans text-2xl text-[#a2a2a2] pt-1 whitespace-nowrap">
               {project.year}
             </span>
 
@@ -47,7 +47,7 @@ export default function Projects() {
                 {project.title} {"\u2197"}
               </a>
 
-              <p className="font-sans text-2xl text-[#4a4a4a] leading-relaxed">
+              <p className="font-sans text-2xl text-[#6c6c6c] leading-relaxed">
                 {project.description}
               </p>
 
