@@ -25,28 +25,26 @@ export default async function EssaysPage() {
 
       <div className="mt-12 flex flex-col gap-10">
         {essays.map((essay) => (
-          <article
+          <Link
             key={essay.slug}
-            className="grid gap-4 border-b border-[#151515] pb-10 md:grid-cols-[180px_1fr]"
+            href={`/essays/${essay.slug}`}
+            className="group grid gap-4 border-b border-[#151515] pb-10 no-underline md:grid-cols-[180px_1fr]"
           >
-            <p className="pt-1 font-sans text-base uppercase tracking-[0.18em] text-[#6f6f6f]">
+            <p className="pt-1 font-sans uppercase text-[#6f6f6f]">
               {essay.publishedAt}
             </p>
             <div>
-              <Link
-                href={`/essays/${essay.slug}`}
-                className="font-serif text-3xl font-light leading-tight text-[#e8e3dc] no-underline transition-colors hover:text-white md:text-4xl"
-              >
+              <p className="font-serif text-3xl font-light leading-tight text-[#e8e3dc] transition-colors group-hover:text-white md:text-4xl">
                 {essay.title}
-              </Link>
-              <p className="mt-3 max-w-2xl font-sans text-xl leading-relaxed text-[#9f9a92]">
+              </p>
+              <p className="mt-3 max-w-2xl font-sans text-xl leading-relaxed text-[#9f9a92] transition-colors group-hover:text-[#b5afa6]">
                 {essay.description}
               </p>
-              <p className="mt-4 font-sans text-sm uppercase tracking-[0.18em] text-[#5d5d5d]">
+              <p className="mt-4 font-sans text-sm uppercase tracking-[0.18em] text-[#5d5d5d] transition-colors group-hover:text-[#787878]">
                 {essay.readingTime}
               </p>
             </div>
-          </article>
+          </Link>
         ))}
       </div>
     </section>

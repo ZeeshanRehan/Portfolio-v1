@@ -24,7 +24,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section className="mt-[10vh] px-48 pb-20">
+    <section id="projects" className="mt-[10vh] px-48 pb-20">
       <p className="font-sans text-3xl tracking-[0.2em] text-[#6a6a6a] uppercase mb-12">
         Projects:
       </p>

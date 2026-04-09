@@ -3,6 +3,7 @@ import Hero from "@/components/hero";
 import Experience from "@/components/experience";
 import Projects from "@/components/project";
 import Stack from "@/components/stack";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Experience/>
         <Projects/>
         <Stack/>
+        <Footer />
       </main>
 
     </>
