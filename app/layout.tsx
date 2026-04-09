@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Cormorant, Abel } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 const cormorant = Cormorant({
@@ -29,7 +30,10 @@ export default function RootLayout({
       lang="en"
       className={`${cormorant.variable} ${abel.variable}`}
     >
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics/>
+        </body>
     </html>
   );
 }

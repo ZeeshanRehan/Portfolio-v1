@@ -15,7 +15,7 @@ export default function Nav() {
         {[
           { label: "Essays", href: "/essays" },
           { label: "Photos", href: "/photos" },
-          { label: "About", href: "/about" },
+          { label: "About", href: "/#" },
         ].map(({ label, href }) => (
           <li key={label}>
             <Link
