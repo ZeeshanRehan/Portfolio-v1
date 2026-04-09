@@ -17,7 +17,7 @@ const projects = [
     title: "DevBytes",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSdgRQG4Tajdt5AMh4WxeA11J4RucVxnv_cyhXioLar64uc2yA/viewform",
     description: "Gamified DSA revision platform. Bite-sized daily sessions with streak tracking.",
-    achievement: null,
+    achievement: "work in progress.",
     year: "2026",
   },
 ];

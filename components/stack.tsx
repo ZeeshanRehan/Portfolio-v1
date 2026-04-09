@@ -11,13 +11,13 @@ export default function Stack() {
       </p>
 
       {/* main stack line */}
-      <p className="font-serif font-light text-2xl text-[#e8e3dc] leading-relaxed tracking-wider ">
+      <p className="font-serif font-light text-2xl text-[#e8e3dc] leading-relaxed tracking-widest ">
         Next.js, React, Node.js, Express, TypeScript,
         Prisma, AWS, MongoDB, Tailwind, Figma.
       </p>
 
       {/* copy line */}
-      <p className="font-sans text-2xl text-[#4a4a4a] mt-4 max-w-2x, leading-relaxed">
+      <p className="font-sans text-2xl text-[#5d5d5d] mt-4 max-w-2x, leading-relaxed">
         If I haven&apos;t already worked with the tech, I usually pick it up and learn on the go.
       </p>
 

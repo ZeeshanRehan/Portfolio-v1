@@ -1,6 +1,10 @@
 "use client";
 
 const usefulLinks = [
+  {
+    label: "Resume",
+    href: "https://docs.google.com/document/d/10EszhlOV_1_btR--BHNdt3ercregQ0XA/edit",
+  },
   { label: "GitHub", href: "https://github.com/ZeeshanRehan" },
   {
     label: "LinkedIn",
@@ -14,7 +18,7 @@ export default function Footer() {
   return (
     <footer id="contact" className="mt-24 pb-10">
       <div className="rounded-t-[1.35rem] border-t border-[#242424] px-6 pt-10 shadow-[0_-18px_50px_rgba(0,0,0,0.22)] md:px-10">
-        <div className="grid gap-12 md:grid-cols-[1.4fr_0.8fr] md:items-start">
+        <div className="grid gap-12 md:grid-cols-[1.4fr_0.8fr] md:items-start px-4">
           <div>
             <p className="font-sans text-sm uppercase tracking-[0.3em] text-[#5d5d5d]">
               Zeshan Rehan
@@ -27,10 +31,10 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="grid gap-6 md:justify-self-end">
-            <p className="font-sans text-sm uppercase tracking-[0.26em] text-[#5d5d5d]">
+          <div className="grid gap-6 md:justify-self-end pr-12">
+            {/* <p className="font-sans text-sm uppercase tracking-[0.26em] text-[#5d5d5d]">
               Useful Links
-            </p>
+            </p> */}
             <div className="flex flex-col gap-3">
               {usefulLinks.map((link) => (
                 <a
