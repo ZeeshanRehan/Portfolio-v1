@@ -13,12 +13,12 @@ export default function Stack() {
       {/* main stack line */}
       <p className="font-serif font-light text-2xl text-[#e8e3dc] leading-relaxed ">
         Next.js, React, Node.js, Express, TypeScript,
-        Prisma, Supabase, MongoDB, Tailwind, Figma.
+        Prisma, AWS, MongoDB, Tailwind, Figma.
       </p>
 
       {/* copy line */}
       <p className="font-sans text-2xl text-[#4a4a4a] mt-4 max-w-2x, leading-relaxed">
-        Whatever the project needs, I usually pick up and learn on the go.
+        If I haven't already worked with the tech, I usually pick it up and learn on the go.
       </p>
 
     </section>
