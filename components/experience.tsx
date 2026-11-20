@@ -3,17 +3,27 @@
 
 const roles = [
   {
-    period: "2025 — Present",
-    role: "Design Manager",
-    org: "InvolveMINT Inc.",
+    period: "2026",
+    role: "Software Engineer",
+    org: "BrightStone",
     bullets: [
-      "Leading a cross-functional team of 6 to architect a new end-to-end communication system for 2,500–10,000 community members.",
-      "Redesigned inquiry-to-deal flows in Figma — projected to raise transaction conversion from 35% → 60%.",
-      "Removed friction across the discovery-to-deal pipeline for 100+ active small businesses on the platform.",
+      "Rebuilt a legacy low-code site for a nonprofit serving adults with disabilities into React and TypeScript, with Node APIs on AWS.",
+      "Built donation and intake pipelines with Prisma and MongoDB, and cleaned years of legacy donor data with Python.",
+      "Cut page load from 6.5s to 2s, so more families actually made it through sign-up.",
     ],
   },
   {
-    period: "2025",
+    period: "2025 — 2026",
+    role: "Software Developer",
+    org: "InvolveMINT Inc.",
+    bullets: [
+      "Led a team of 6 rebuilding the mutual-credit marketplace, re-architecting messaging, transactions, and deals as modular services for 800+ businesses.",
+      "Built real-time messaging over WebSockets across React Native mobile and web.",
+      "Redesigned the discovery-to-deal flow, projected to lift conversion from ~35% to 65%+.",
+    ],
+  },
+  {
+    period: "2025 — Present",
     role: "Housing Preparation Assistant",
     org: "Rowan University",
     bullets: [

@@ -10,7 +10,7 @@ const projects = [
   title: "RUHungry",
   href: "https://ruhungry.vercel.app/",
   description: "On-campus free food event finder for Rowan University students. Built on the Engage API with a cron job architecture.",
-  achievement: "1,800+ events discovered, serving 8,000+ off-campus students.",
+  achievement: "1,800+ events discovered, shared by professors across campus.",
   year: "2025",
 },
   {
