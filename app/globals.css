@@ -25,3 +25,20 @@ body {
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
 }
+/* — admin editor preview: mirrors mdx-components.tsx styles — */
+.essay-preview { font-family: var(--font-abel); color: #b5b0a8; font-size: 1.28rem; line-height: 1.95; }
+.essay-preview > * + * { margin-top: 1.5rem; }
+.essay-preview h1, .essay-preview h2, .essay-preview h3 { font-family: var(--font-cormorant); font-weight: 300; color: #e8e3dc; line-height: 1.2; }
+.essay-preview h2 { font-size: 2.25rem; margin-top: 4rem; }
+.essay-preview h3 { font-size: 1.85rem; margin-top: 3rem; }
+.essay-preview strong { color: #e8e3dc; font-weight: 500; }
+.essay-preview em { color: #d7d1c7; }
+.essay-preview a { color: #e8e3dc; text-decoration: underline; text-decoration-color: #4a4a4a; text-underline-offset: 4px; }
+.essay-preview ul { list-style: disc; padding-left: 1.5rem; }
+.essay-preview ol { list-style: decimal; padding-left: 1.5rem; }
+.essay-preview blockquote { margin-top: 2.5rem; border-left: 1px solid #2a2a2a; padding-left: 1.5rem; font-family: var(--font-cormorant); font-size: 1.6rem; font-style: italic; font-weight: 300; color: #d8d2c9; }
+.essay-preview hr { margin: 3.5rem 0; border-color: #1f1f1f; }
+.essay-preview code { background: #111; padding: 0.1rem 0.4rem; border-radius: 2px; font-size: 0.95em; color: #ddd6cc; }
+.essay-preview pre { background: #0d0d0d; border: 1px solid #1f1f1f; padding: 1.25rem; overflow-x: auto; font-size: 0.875rem; line-height: 1.75; }
+.essay-preview pre code { background: none; padding: 0; }
+.essay-preview pullquote { display: block; margin: 3.5rem 0; padding: 2rem 0; border-top: 1px solid #1f1f1f; border-bottom: 1px solid #1f1f1f; font-family: var(--font-cormorant); font-size: 2rem; font-weight: 300; line-height: 1.45; color: #e8e3dc; }
